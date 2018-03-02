@@ -1,10 +1,10 @@
 body {
   font-size: 16px;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
 }
 body input, body textarea, body .btn, body button {
-  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 blockquote p {
@@ -36,7 +36,7 @@ blockquote p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 300;
   text-transform: none;
 }
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #masthead .menu, #masthead.menu, #navbar-slide.menu {
-  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 300;
   font-size: 21px;
 }
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu .navbar-brand {
-  font-family: "Oswald", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 300;
   font-size: 24px;
 }
@@ -1112,7 +1112,7 @@ input[type="button"] {
   background-color: rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #5c5c5c;
-  font-family: "Oswald";
+  font-family: "Ubuntu Condensed";
 }
 
 .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
@@ -2574,7 +2574,7 @@ textarea.woocommerce-invalid {
 }
 
 .shipping_calculator {
-  font-family: "Oswald";
+  font-family: "Ubuntu Condensed";
   font-weight: 300;
 }
 
@@ -2603,7 +2603,7 @@ textarea.woocommerce-invalid {
   border-color: rgba(0, 0, 0, 0.1);
 }
 .product_list_widget li a, .widget_product_categories li a, .widget_product_categories .children a, .widget_layered_nav li a {
-  font-family: "Oswald";
+  font-family: "Ubuntu Condensed";
   color: #1c1c1c;
   font-weight: 300;
   text-transform: none;
