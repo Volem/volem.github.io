@@ -39,11 +39,8 @@
                         <span class="icon-bar"></span>
                     </button>
                     <button id="langbtn" class="navbar-toggle collapsed" style="margin-right: 50px;" type="button">
-                        <small class="text-light" style="display: none;" data-lang="tr">
-                            <strong>Turkish</strong>
-                        </small>
-                        <small class="text-light" data-lang="en">
-                            <strong>İngilizce</strong>
+                        <small class="text-light" data-lang="tr">
+                            <a href="/"><strong>İngilizce</strong></a>
                         </small>
                     </button>
                     <a class="navbar-brand" href="/">
@@ -600,13 +597,6 @@
         $('#gform').on('submit', function (e) {
             $('#gform *').fadeOut(2000);
             $('#gform').prepend('<p class="lead text-center center element-bottom-20">Your submission has been processed...</p>');
-        });
-        $('#langbtn').click(function () {
-            var visible = $(this).find(':visible');
-            var hidden = $(this).find(':hidden');
-            visible.hide();
-            hidden.show();
-            window.location.href = visible.data('lang') == 'tr' ? '/tr' : '/';
         });
     </script>
     <script type="text/javascript">
