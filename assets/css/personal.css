@@ -227,6 +227,7 @@ input[type="color"],
   color: #ffffff;
   border-radius: 0px;
   margin-top:37px;
+  margin-right: 5px;
 }
 
 .language-scrolled {
