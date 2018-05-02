@@ -23253,7 +23253,8 @@ function oxyThemeScripts($) {
     });
 
     // trigger the waypoint only for fixed position navbar
-    var menuContainer = $('#masthead.navbar-sticky');
+	var menuContainer = $('#masthead.navbar-sticky');
+	var languageContainer = $('.language');
     if(menuContainer.length && menuContainer.hasClass('navbar-sticky')){
         // calculate menu offset in case menu is placed inside the page
         var menuOffset =  menuContainer.position().top;
@@ -23261,7 +23262,8 @@ function oxyThemeScripts($) {
             offset: -( parseInt( oxyThemeData.navbarScrolledPoint ) + menuOffset ),
             handler: function(direction) {
                 // add / remove scrolled class
-                menuContainer.toggleClass('navbar-scrolled');
+				menuContainer.toggleClass('navbar-scrolled');
+				languageContainer.toggleClass('language-scrolled');
                 // remove swatch class
                 var prefix = 'swatch-';
                 var classes = menuContainer[0].className.split(' ').filter(function(c) {

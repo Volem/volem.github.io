@@ -219,6 +219,25 @@ input[type="color"],
   margin-bottom: 37px;
 }
 
+.language {
+  float: right;
+  font-weight: bold;
+  font-size: small;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 0px;
+  margin-top:37px;
+}
+
+.language-scrolled {
+  margin-top: 27px;
+}
+
+.language:hover{
+  background-color: transparent;
+  color: #ffffff;
+}
+
 #masthead .dropdown-menu {
   min-width: 220px;
 }
