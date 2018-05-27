@@ -228,6 +228,7 @@ input[type="color"],
   border-radius: 0px;
   margin-top:37px;
   margin-right: 5px;
+  text-decoration: underline;
 }
 
 .language-scrolled {
@@ -1404,16 +1405,11 @@ input[type="button"] {
 }
 
 @media (min-width: 992px) {
-  .transparent-header .sticky-wrapper {
-    background: none;
-  }
-
   .rtl.transparent-header #masthead .navbar-brand {
     background-position-x: 100%;
   }
 
   .transparent-header #masthead:not(.navbar-scrolled) {
-    background: none;
     box-shadow: 0 -1px 0px 0 rgba(255, 255, 255, 0.07) inset;
   }
   .transparent-header #masthead:not(.navbar-scrolled) a {
